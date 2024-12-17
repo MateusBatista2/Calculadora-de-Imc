@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Calculadora de Imc</title>
+</head>
+<body>
+    <h1>Calculadora de IMC</h1>
+    <p>Bem-vindo à nossa Calculadora de IMC! Este site foi criado para ajudar você a calcular o seu Índice de Massa Corporal (IMC) de forma rápida e fácil.
+
+        O que é o IMC? O IMC é uma fórmula utilizada para avaliar se o peso de uma pessoa está dentro da faixa considerada saudável, de acordo com sua altura. O cálculo leva em consideração o peso e a altura da pessoa e resulta em um número que pode ser interpretado para indicar diferentes condições de saúde, como:</p>
+        <p2>" Abaixo do peso
+            - Peso normal
+            - Sobrepeso
+            - Obesidade"</p2>
+
+            <p3>Importância de manter um IMC saudável
+                Um IMC equilibrado está associado a benefícios como:
+                
+                Redução do risco de doenças cardíacas, diabetes tipo 2 e hipertensão.
+                Melhora na mobilidade e bem-estar geral.
+                Aumento da qualidade de vida e longevidade.</p3>
+                <p4>USE PONTO PARA DECLARAR SUA ALTURA</p4>
+
+    <label for="peso">Peso em Kg</label>
+    <input type="number" id="peso" placeholder="Digite aqui seu peso.">
+ 
+    <label for="altura">Altura em M</label>
+    <input type="text" id="altura" placeholder="Digite aqui sua altura(use ponto)">
+
+    <button onclick="calcIMC()">CALCULAR</button>
+    <a href="https://www.infoescola.com/nutricao/indice-de-massa-corporal-imc/">Para que saber seu IMC?</a>
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    <p id="resultado"></p>
+    <p id="classificação"></p>
+ 
+</body>
+</html>
